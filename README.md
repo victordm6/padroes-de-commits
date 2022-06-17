@@ -1,14 +1,4 @@
-<h1 align="center">
-📄<br>Padrões de commits 
-</h1>
-
-De acordo com a documentação do **Conventional Commits**, Commits Semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define  um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
-
-Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
-
-Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
-
-## 🦄 Tipo e Descrição
+## Tipo e Descrição
 
 O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
 
@@ -32,15 +22,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (*continuous integration*).
 
-## ☑️ Recomendações
 
-- Adicione um título consistente com o título do conteúdo;
-- Recomendamos que na primeira linha deve ter no máximo 4 palavras;
-- Para descrever com detalhes, usar a descrição do commit;
-- Usar um emoji no início da mensagem de commit representando sobre o commit;
-- Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
-
-## 💈 Padrões de emojis
+## Padrões de emojis
 
 <table>
   <thead>
@@ -214,7 +197,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
   </tbody>
 </table>
 
-## 💻 Exemplos
+## Exemplos
 <table>
   <thead>
     <tr>
@@ -291,5 +274,3 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
   </tbody>
 </table>
-
-<br>[🔝 Voltar ao topo](#padrões-de-commits-) <br>
