@@ -1,7 +1,3 @@
-## Tipo e Descrição
-
-O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
-
 - `feat`- Commits do tipo feat indicam que seu trecho de código está incluindo um **novo recurso** (se relaciona com o MINOR do versionamento semântico).
 
 - `fix` - Commits do tipo fix indicam que seu trecho de código commitado está **solucionando um problema** (bug fix), (se relaciona com o PATCH do versionamento semântico).
@@ -21,10 +17,6 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - `chore` - Commits do tipo chore indicam **atualizações de tarefas** de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em código)
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (*continuous integration*).
-
-
-## Padrões de emojis
-
 <table>
   <thead>
     <tr>
@@ -34,11 +26,6 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
   </thead>
  <tbody>
-    <tr>
-      <td>Acessibilidade</td>
-      <td>♿ <code>:wheelchair:</code></td>
-      <td></td>
-    </tr>
     <tr>
       <td>Adicionando um teste</td>
       <td>✅ <code>:white_check_mark:</code></td>
@@ -53,11 +40,6 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>Alterações de revisão de código</td>
       <td>👌 <code>:ok_hand:</code></td>
       <td><code>style</code></td>
-    </tr>
-    <tr>
-      <td>Animações e transições</td>
-      <td>💫 <code>:dizzy:</code></td>
-      <td></td>
     </tr>
     <tr>
       <td>Bugfix</td>
@@ -80,19 +62,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td><code>chore</code></td>
     </tr>
     <tr>
-      <td>Deploy</td>
-      <td>🚀 <code>:rocket:</code></td>
-      <td></td>
-    </tr>
-    <tr>
       <td>Documentação</td>
       <td>📚 <code>:books:</code></td>
       <td><code>docs</code></td>
-    </tr>
-    <tr>
-      <td>Em progresso</td>
-      <td>🚧 <code>:construction:</code></td>
-      <td></td>
     </tr>
     <tr>
       <td>Estilização de interface</td>
@@ -103,11 +75,6 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>Infraestrutura</td>
       <td>🧱 <code>:bricks:</code></td>
       <td><code>ci</code></td>
-    </tr>
-    <tr>
-      <td>Lista de ideias (tasks)</td>
-      <td>🔜 <code> :soon: </code></td>
-      <td></td>
     </tr>
     <tr>
       <td>Mover/Renomear</td>
@@ -135,39 +102,14 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <td><code>refactor</code></td>
     </tr>
     <tr>
-      <td>Removendo um arquivo</td>
-      <td>🔥 <code>:fire:</code></td>
-      <td></td>
-    </tr>
-    <tr>
       <td>Removendo uma dependência</td>
       <td>➖ <code>:heavy_minus_sign:</code></td>
       <td><code>build</code></td>
     </tr>
     <tr>
-      <td>Responsividade</td>
-      <td>📱 <code>:iphone:</code></td>
-      <td></td>
-    </tr>
-    <tr>
       <td>Revertendo mudanças</td>
       <td>💥 <code>:boom:</code></td>
       <td><code>fix</code></td>
-    </tr>
-    <tr>
-      <td>Segurança</td>
-      <td>🔒️ <code>:lock:</code></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>SEO</td>
-      <td>🔍️ <code>:mag:</code></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tag de versão</td>
-      <td>🔖 <code>:bookmark:</code></td>
-      <td></td>
     </tr>
     <tr>
       <td>Teste de aprovação</td>
@@ -179,25 +121,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>🧪 <code>:test_tube:</code></td>
       <td><code>test</code></td>
     </tr>
-    <tr>
-      <td>Texto</td>
-      <td>📝 <code>:pencil:</code></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tipagem</td>
-      <td>🏷️ <code>:label:</code></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tratamento de erros</td>
-      <td>🥅 <code>:goal_net:</code></td>
-      <td></td>
-    </tr>
   </tbody>
 </table>
 
-## Exemplos
 <table>
   <thead>
     <tr>
